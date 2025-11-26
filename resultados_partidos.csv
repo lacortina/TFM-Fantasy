@@ -1,0 +1,381 @@
+jornada,fecha,local,visitante,resultado,lineup_url
+1. Jornada,,Athletic Club,Getafe CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299623/athletic-club_getafe-cf/lineup/
+1. Jornada,,Real Betis,Girona FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299626/real-betis_girona-fc/lineup/
+1. Jornada,,RC Celta,CD Alavés,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299632/rc-celta_cd-alaves/lineup/
+1. Jornada,,UD Las Palmas,Sevilla FC,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299647/ud-las-palmas_sevilla-fc/lineup/
+1. Jornada,,CA Osasuna,CD Leganés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299629/ca-osasuna_cd-leganes/lineup/
+1. Jornada,,Valencia CF,FC Barcelona,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299635/valencia-cf_fc-barcelona/lineup/
+1. Jornada,,Real Sociedad,Rayo Vallecano,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299644/real-sociedad_rayo-vallecano/lineup/
+1. Jornada,,RCD Mallorca,Real Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299641/rcd-mallorca_real-madrid/lineup/
+1. Jornada,,Real Valladolid,Espanyol Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304324/real-valladolid_espanyol-barcelona/lineup/
+1. Jornada,,Villarreal CF,Atlético de Madrid,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299638/villarreal-cf_atletico-de-madrid/lineup/
+2. Jornada,,RC Celta,Valencia CF,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299659/rc-celta_valencia-cf/lineup/
+2. Jornada,,Sevilla FC,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299671/sevilla-fc_villarreal-cf/lineup/
+2. Jornada,,CA Osasuna,RCD Mallorca,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299653/ca-osasuna_rcd-mallorca/lineup/
+2. Jornada,,FC Barcelona,Athletic Club,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299665/fc-barcelona_athletic-club/lineup/
+2. Jornada,,Getafe CF,Rayo Vallecano,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299668/getafe-cf_rayo-vallecano/lineup/
+2. Jornada,,Espanyol Barcelona,Real Sociedad,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304327/espanyol-barcelona_real-sociedad/lineup/
+2. Jornada,,Real Madrid,Real Valladolid,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299674/real-madrid_real-valladolid/lineup/
+2. Jornada,,CD Leganés,UD Las Palmas,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299656/cd-leganes_ud-las-palmas/lineup/
+2. Jornada,,CD Alavés,Real Betis,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299662/cd-alaves_real-betis/lineup/
+2. Jornada,,Atlético de Madrid,Girona FC,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299650/atletico-de-madrid_girona-fc/lineup/
+3. Jornada,,Villarreal CF,RC Celta,4:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299686/villarreal-cf_rc-celta/lineup/
+3. Jornada,,RCD Mallorca,Sevilla FC,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299692/rcd-mallorca_sevilla-fc/lineup/
+3. Jornada,,Rayo Vallecano,FC Barcelona,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299689/rayo-vallecano_fc-barcelona/lineup/
+3. Jornada,,Athletic Club,Valencia CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299677/athletic-club_valencia-cf/lineup/
+3. Jornada,,Real Valladolid,CD Leganés,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299698/real-valladolid_cd-leganes/lineup/
+3. Jornada,,Real Sociedad,CD Alavés,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299695/real-sociedad_cd-alaves/lineup/
+3. Jornada,,Atlético de Madrid,Espanyol Barcelona,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304330/atletico-de-madrid_espanyol-barcelona/lineup/
+3. Jornada,,Girona FC,CA Osasuna,4:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299683/girona-fc_ca-osasuna/lineup/
+3. Jornada,,UD Las Palmas,Real Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299701/ud-las-palmas_real-madrid/lineup/
+3. Jornada,,Real Betis,Getafe CF,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299680/real-betis_getafe-cf/lineup/
+4. Jornada,,FC Barcelona,Real Valladolid,7:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299716/fc-barcelona_real-valladolid/lineup/
+4. Jornada,,Athletic Club,Atlético de Madrid,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299704/athletic-club_atletico-de-madrid/lineup/
+4. Jornada,,Espanyol Barcelona,Rayo Vallecano,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304333/espanyol-barcelona_rayo-vallecano/lineup/
+4. Jornada,,CD Leganés,RCD Mallorca,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299710/cd-leganes_rcd-mallorca/lineup/
+4. Jornada,,Valencia CF,Villarreal CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299725/valencia-cf_villarreal-cf/lineup/
+4. Jornada,,CA Osasuna,RC Celta,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299707/ca-osasuna_rc-celta/lineup/
+4. Jornada,,CD Alavés,UD Las Palmas,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299713/cd-alaves_ud-las-palmas/lineup/
+4. Jornada,,Sevilla FC,Girona FC,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299722/sevilla-fc_girona-fc/lineup/
+4. Jornada,,Getafe CF,Real Sociedad,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299719/getafe-cf_real-sociedad/lineup/
+4. Jornada,,Real Madrid,Real Betis,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299728/real-madrid_real-betis/lineup/
+5. Jornada,,Real Betis,CD Leganés,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299734/real-betis_cd-leganes/lineup/
+5. Jornada,,RCD Mallorca,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299749/rcd-mallorca_villarreal-cf/lineup/
+5. Jornada,,Espanyol Barcelona,CD Alavés,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304336/espanyol-barcelona_cd-alaves/lineup/
+5. Jornada,,Sevilla FC,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299743/sevilla-fc_getafe-cf/lineup/
+5. Jornada,,Real Sociedad,Real Madrid,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299752/real-sociedad_real-madrid/lineup/
+5. Jornada,,RC Celta,Real Valladolid,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299737/rc-celta_real-valladolid/lineup/
+5. Jornada,,Girona FC,FC Barcelona,1:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10299740/girona-fc_fc-barcelona/lineup/
+5. Jornada,,UD Las Palmas,Athletic Club,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299755/ud-las-palmas_athletic-club/lineup/
+5. Jornada,,Atlético de Madrid,Valencia CF,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299731/atletico-de-madrid_valencia-cf/lineup/
+5. Jornada,,Rayo Vallecano,CA Osasuna,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299746/rayo-vallecano_ca-osasuna/lineup/
+6. Jornada,,CD Alavés,Sevilla FC,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299767/cd-alaves_sevilla-fc/lineup/
+6. Jornada,,Real Valladolid,Real Sociedad,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299782/real-valladolid_real-sociedad/lineup/
+6. Jornada,,CA Osasuna,UD Las Palmas,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299764/ca-osasuna_ud-las-palmas/lineup/
+6. Jornada,,Valencia CF,Girona FC,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299773/valencia-cf_girona-fc/lineup/
+6. Jornada,,Real Madrid,Espanyol Barcelona,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304339/real-madrid_espanyol-barcelona/lineup/
+6. Jornada,,Getafe CF,CD Leganés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299770/getafe-cf_cd-leganes/lineup/
+6. Jornada,,Athletic Club,RC Celta,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299758/athletic-club_rc-celta/lineup/
+6. Jornada,,Villarreal CF,FC Barcelona,1:5,https://www.livefutbol.com/match-report/co97/primera-division/ma10299776/villarreal-cf_fc-barcelona/lineup/
+6. Jornada,,Rayo Vallecano,Atlético de Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299779/rayo-vallecano_atletico-de-madrid/lineup/
+6. Jornada,,Real Betis,RCD Mallorca,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299761/real-betis_rcd-mallorca/lineup/
+7. Jornada,,RCD Mallorca,Real Sociedad,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299803/rcd-mallorca_real-sociedad/lineup/
+7. Jornada,,CD Leganés,Athletic Club,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299785/cd-leganes_athletic-club/lineup/
+7. Jornada,,Sevilla FC,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299797/sevilla-fc_real-valladolid/lineup/
+7. Jornada,,Valencia CF,CA Osasuna,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299800/valencia-cf_ca-osasuna/lineup/
+7. Jornada,,Real Madrid,CD Alavés,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299806/real-madrid_cd-alaves/lineup/
+7. Jornada,,Girona FC,Rayo Vallecano,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299794/girona-fc_rayo-vallecano/lineup/
+7. Jornada,,FC Barcelona,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299791/fc-barcelona_getafe-cf/lineup/
+7. Jornada,,UD Las Palmas,Real Betis,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299809/ud-las-palmas_real-betis/lineup/
+7. Jornada,,Espanyol Barcelona,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304342/espanyol-barcelona_villarreal-cf/lineup/
+7. Jornada,,RC Celta,Atlético de Madrid,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299788/rc-celta_atletico-de-madrid/lineup/
+8. Jornada,,Real Valladolid,RCD Mallorca,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299836/real-valladolid_rcd-mallorca/lineup/
+8. Jornada,,Getafe CF,CD Alavés,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299824/getafe-cf_cd-alaves/lineup/
+8. Jornada,,Rayo Vallecano,CD Leganés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299830/rayo-vallecano_cd-leganes/lineup/
+8. Jornada,,Real Sociedad,Valencia CF,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299833/real-sociedad_valencia-cf/lineup/
+8. Jornada,,CA Osasuna,FC Barcelona,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299818/ca-osasuna_fc-barcelona/lineup/
+8. Jornada,,RC Celta,Girona FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299821/rc-celta_girona-fc/lineup/
+8. Jornada,,Athletic Club,Sevilla FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299812/athletic-club_sevilla-fc/lineup/
+8. Jornada,,Real Betis,Espanyol Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304345/real-betis_espanyol-barcelona/lineup/
+8. Jornada,,Atlético de Madrid,Real Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299815/atletico-de-madrid_real-madrid/lineup/
+8. Jornada,,Villarreal CF,UD Las Palmas,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299827/villarreal-cf_ud-las-palmas/lineup/
+9. Jornada,,CD Leganés,Valencia CF,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299839/cd-leganes_valencia-cf/lineup/
+9. Jornada,,Espanyol Barcelona,RCD Mallorca,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304348/espanyol-barcelona_rcd-mallorca/lineup/
+9. Jornada,,Getafe CF,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299845/getafe-cf_ca-osasuna/lineup/
+9. Jornada,,Real Valladolid,Rayo Vallecano,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299860/real-valladolid_rayo-vallecano/lineup/
+9. Jornada,,UD Las Palmas,RC Celta,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299863/ud-las-palmas_rc-celta/lineup/
+9. Jornada,,Real Madrid,Villarreal CF,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299854/real-madrid_villarreal-cf/lineup/
+9. Jornada,,Girona FC,Athletic Club,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299848/girona-fc_athletic-club/lineup/
+9. Jornada,,CD Alavés,FC Barcelona,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299842/cd-alaves_fc-barcelona/lineup/
+9. Jornada,,Sevilla FC,Real Betis,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299851/sevilla-fc_real-betis/lineup/
+9. Jornada,,Real Sociedad,Atlético de Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299857/real-sociedad_atletico-de-madrid/lineup/
+10. Jornada,,CD Alavés,Real Valladolid,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299875/cd-alaves_real-valladolid/lineup/
+10. Jornada,,Athletic Club,Espanyol Barcelona,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304351/athletic-club_espanyol-barcelona/lineup/
+10. Jornada,,CA Osasuna,Real Betis,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299869/ca-osasuna_real-betis/lineup/
+10. Jornada,,Girona FC,Real Sociedad,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299881/girona-fc_real-sociedad/lineup/
+10. Jornada,,RC Celta,Real Madrid,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299872/rc-celta_real-madrid/lineup/
+10. Jornada,,RCD Mallorca,Rayo Vallecano,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299890/rcd-mallorca_rayo-vallecano/lineup/
+10. Jornada,,Atlético de Madrid,CD Leganés,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299866/atletico-de-madrid_cd-leganes/lineup/
+10. Jornada,,Villarreal CF,Getafe CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299887/villarreal-cf_getafe-cf/lineup/
+10. Jornada,,FC Barcelona,Sevilla FC,5:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299878/fc-barcelona_sevilla-fc/lineup/
+10. Jornada,,Valencia CF,UD Las Palmas,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299884/valencia-cf_ud-las-palmas/lineup/
+11. Jornada,,Espanyol Barcelona,Sevilla FC,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304354/espanyol-barcelona_sevilla-fc/lineup/
+11. Jornada,,Real Valladolid,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299914/real-valladolid_villarreal-cf/lineup/
+11. Jornada,,Rayo Vallecano,CD Alavés,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299902/rayo-vallecano_cd-alaves/lineup/
+11. Jornada,,UD Las Palmas,Girona FC,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299917/ud-las-palmas_girona-fc/lineup/
+11. Jornada,,Real Madrid,FC Barcelona,0:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10299908/real-madrid_fc-barcelona/lineup/
+11. Jornada,,CD Leganés,RC Celta,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299896/cd-leganes_rc-celta/lineup/
+11. Jornada,,Getafe CF,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299899/getafe-cf_valencia-cf/lineup/
+11. Jornada,,Real Betis,Atlético de Madrid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299893/real-betis_atletico-de-madrid/lineup/
+11. Jornada,,Real Sociedad,CA Osasuna,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299911/real-sociedad_ca-osasuna/lineup/
+11. Jornada,,RCD Mallorca,Athletic Club,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299905/rcd-mallorca_athletic-club/lineup/
+12. Jornada,,CD Alavés,RCD Mallorca,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299932/cd-alaves_rcd-mallorca/lineup/
+12. Jornada,,CA Osasuna,Real Valladolid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299926/ca-osasuna_real-valladolid/lineup/
+12. Jornada,,Girona FC,CD Leganés,4:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299935/girona-fc_cd-leganes/lineup/
+12. Jornada,,Atlético de Madrid,UD Las Palmas,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299923/atletico-de-madrid_ud-las-palmas/lineup/
+12. Jornada,,FC Barcelona,Espanyol Barcelona,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304357/fc-barcelona_espanyol-barcelona/lineup/
+12. Jornada,,Sevilla FC,Real Sociedad,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299938/sevilla-fc_real-sociedad/lineup/
+12. Jornada,,Athletic Club,Real Betis,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299920/athletic-club_real-betis/lineup/
+12. Jornada,,RC Celta,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299929/rc-celta_getafe-cf/lineup/
+12. Jornada,,Villarreal CF,Rayo Vallecano,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299944/villarreal-cf_rayo-vallecano/lineup/
+12. Jornada,,Valencia CF,Real Madrid,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299941/valencia-cf_real-madrid/lineup/
+13. Jornada,,Rayo Vallecano,UD Las Palmas,1:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299959/rayo-vallecano_ud-las-palmas/lineup/
+13. Jornada,,Real Madrid,CA Osasuna,4:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299965/real-madrid_ca-osasuna/lineup/
+13. Jornada,,Villarreal CF,CD Alavés,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299956/villarreal-cf_cd-alaves/lineup/
+13. Jornada,,CD Leganés,Sevilla FC,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299950/cd-leganes_sevilla-fc/lineup/
+13. Jornada,,Real Betis,RC Celta,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299947/real-betis_rc-celta/lineup/
+13. Jornada,,RCD Mallorca,Atlético de Madrid,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299962/rcd-mallorca_atletico-de-madrid/lineup/
+13. Jornada,,Getafe CF,Girona FC,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299953/getafe-cf_girona-fc/lineup/
+13. Jornada,,Real Valladolid,Athletic Club,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299971/real-valladolid_athletic-club/lineup/
+13. Jornada,,Real Sociedad,FC Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299968/real-sociedad_fc-barcelona/lineup/
+13. Jornada,,Espanyol Barcelona,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304360/espanyol-barcelona_valencia-cf/lineup/
+14. Jornada,,Getafe CF,Real Valladolid,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299989/getafe-cf_real-valladolid/lineup/
+14. Jornada,,Valencia CF,Real Betis,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299995/valencia-cf_real-betis/lineup/
+14. Jornada,,Atlético de Madrid,CD Alavés,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10299977/atletico-de-madrid_cd-alaves/lineup/
+14. Jornada,,UD Las Palmas,RCD Mallorca,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299998/ud-las-palmas_rcd-mallorca/lineup/
+14. Jornada,,Girona FC,Espanyol Barcelona,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304363/girona-fc_espanyol-barcelona/lineup/
+14. Jornada,,RC Celta,FC Barcelona,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299986/rc-celta_fc-barcelona/lineup/
+14. Jornada,,CA Osasuna,Villarreal CF,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10299980/ca-osasuna_villarreal-cf/lineup/
+14. Jornada,,Sevilla FC,Rayo Vallecano,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299992/sevilla-fc_rayo-vallecano/lineup/
+14. Jornada,,CD Leganés,Real Madrid,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10299983/cd-leganes_real-madrid/lineup/
+14. Jornada,,Athletic Club,Real Sociedad,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10299974/athletic-club_real-sociedad/lineup/
+15. Jornada,,RCD Mallorca,Valencia CF,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300016/rcd-mallorca_valencia-cf/lineup/
+15. Jornada,,FC Barcelona,UD Las Palmas,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300004/fc-barcelona_ud-las-palmas/lineup/
+15. Jornada,,CD Alavés,CD Leganés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300001/cd-alaves_cd-leganes/lineup/
+15. Jornada,,Espanyol Barcelona,RC Celta,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304366/espanyol-barcelona_rc-celta/lineup/
+15. Jornada,,Real Valladolid,Atlético de Madrid,0:5,https://www.livefutbol.com/match-report/co97/primera-division/ma10300025/real-valladolid_atletico-de-madrid/lineup/
+15. Jornada,,Villarreal CF,Girona FC,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300010/villarreal-cf_girona-fc/lineup/
+15. Jornada,,Real Madrid,Getafe CF,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300019/real-madrid_getafe-cf/lineup/
+15. Jornada,,Rayo Vallecano,Athletic Club,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300013/rayo-vallecano_athletic-club/lineup/
+15. Jornada,,Real Sociedad,Real Betis,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300022/real-sociedad_real-betis/lineup/
+15. Jornada,,Sevilla FC,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300007/sevilla-fc_ca-osasuna/lineup/
+16. Jornada,,RC Celta,RCD Mallorca,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300043/rc-celta_rcd-mallorca/lineup/
+16. Jornada,,UD Las Palmas,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300052/ud-las-palmas_real-valladolid/lineup/
+16. Jornada,,Real Betis,FC Barcelona,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300034/real-betis_fc-barcelona/lineup/
+16. Jornada,,Valencia CF,Rayo Vallecano,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300049/valencia-cf_rayo-vallecano/lineup/
+16. Jornada,,Girona FC,Real Madrid,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300046/girona-fc_real-madrid/lineup/
+16. Jornada,,CD Leganés,Real Sociedad,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300040/cd-leganes_real-sociedad/lineup/
+16. Jornada,,Athletic Club,Villarreal CF,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300028/athletic-club_villarreal-cf/lineup/
+16. Jornada,,CA Osasuna,CD Alavés,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300037/ca-osasuna_cd-alaves/lineup/
+16. Jornada,,Atlético de Madrid,Sevilla FC,4:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300031/atletico-de-madrid_sevilla-fc/lineup/
+16. Jornada,,Getafe CF,Espanyol Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304369/getafe-cf_espanyol-barcelona/lineup/
+17. Jornada,,Real Valladolid,Valencia CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300079/real-valladolid_valencia-cf/lineup/
+17. Jornada,,Espanyol Barcelona,CA Osasuna,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304372/espanyol-barcelona_ca-osasuna/lineup/
+17. Jornada,,RCD Mallorca,Girona FC,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300073/rcd-mallorca_girona-fc/lineup/
+17. Jornada,,Sevilla FC,RC Celta,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300064/sevilla-fc_rc-celta/lineup/
+17. Jornada,,Rayo Vallecano,Real Madrid,3:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300070/rayo-vallecano_real-madrid/lineup/
+17. Jornada,,Atlético de Madrid,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300055/atletico-de-madrid_getafe-cf/lineup/
+17. Jornada,,CD Alavés,Athletic Club,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300058/cd-alaves_athletic-club/lineup/
+17. Jornada,,Villarreal CF,Real Betis,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300067/villarreal-cf_real-betis/lineup/
+17. Jornada,,Real Sociedad,UD Las Palmas,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300076/real-sociedad_ud-las-palmas/lineup/
+17. Jornada,,FC Barcelona,CD Leganés,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300061/fc-barcelona_cd-leganes/lineup/
+18. Jornada,,Girona FC,Real Valladolid,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300100/girona-fc_real-valladolid/lineup/
+18. Jornada,,Getafe CF,RCD Mallorca,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300097/getafe-cf_rcd-mallorca/lineup/
+18. Jornada,,RC Celta,Real Sociedad,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300091/rc-celta_real-sociedad/lineup/
+18. Jornada,,CA Osasuna,Athletic Club,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300085/ca-osasuna_athletic-club/lineup/
+18. Jornada,,FC Barcelona,Atlético de Madrid,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300094/fc-barcelona_atletico-de-madrid/lineup/
+18. Jornada,,Valencia CF,CD Alavés,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300103/valencia-cf_cd-alaves/lineup/
+18. Jornada,,Real Madrid,Sevilla FC,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300106/real-madrid_sevilla-fc/lineup/
+18. Jornada,,CD Leganés,Villarreal CF,2:5,https://www.livefutbol.com/match-report/co97/primera-division/ma10300088/cd-leganes_villarreal-cf/lineup/
+18. Jornada,,UD Las Palmas,Espanyol Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304375/ud-las-palmas_espanyol-barcelona/lineup/
+18. Jornada,,Real Betis,Rayo Vallecano,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300082/real-betis_rayo-vallecano/lineup/
+19. Jornada,,RCD Mallorca,FC Barcelona,1:5,https://www.livefutbol.com/match-report/co97/primera-division/ma10300124/rcd-mallorca_fc-barcelona/lineup/
+19. Jornada,,Athletic Club,Real Madrid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300109/athletic-club_real-madrid/lineup/
+19. Jornada,,Rayo Vallecano,RC Celta,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300121/rayo-vallecano_rc-celta/lineup/
+19. Jornada,,CD Alavés,Girona FC,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300115/cd-alaves_girona-fc/lineup/
+19. Jornada,,Real Valladolid,Real Betis,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300130/real-valladolid_real-betis/lineup/
+19. Jornada,,Espanyol Barcelona,CD Leganés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304378/espanyol-barcelona_cd-leganes/lineup/
+19. Jornada,,Sevilla FC,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300118/sevilla-fc_valencia-cf/lineup/
+19. Jornada,,UD Las Palmas,Getafe CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300133/ud-las-palmas_getafe-cf/lineup/
+19. Jornada,,Atlético de Madrid,CA Osasuna,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300112/atletico-de-madrid_ca-osasuna/lineup/
+19. Jornada,,Real Sociedad,Villarreal CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300127/real-sociedad_villarreal-cf/lineup/
+20. Jornada,,Espanyol Barcelona,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304381/espanyol-barcelona_real-valladolid/lineup/
+20. Jornada,,Girona FC,Sevilla FC,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300151/girona-fc_sevilla-fc/lineup/
+20. Jornada,,CD Leganés,Atlético de Madrid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300142/cd-leganes_atletico-de-madrid/lineup/
+20. Jornada,,Real Betis,CD Alavés,1:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300136/real-betis_cd-alaves/lineup/
+20. Jornada,,Getafe CF,FC Barcelona,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300148/getafe-cf_fc-barcelona/lineup/
+20. Jornada,,RC Celta,Athletic Club,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300145/rc-celta_athletic-club/lineup/
+20. Jornada,,Real Madrid,UD Las Palmas,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300160/real-madrid_ud-las-palmas/lineup/
+20. Jornada,,CA Osasuna,Rayo Vallecano,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300139/ca-osasuna_rayo-vallecano/lineup/
+20. Jornada,,Valencia CF,Real Sociedad,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300154/valencia-cf_real-sociedad/lineup/
+20. Jornada,,Villarreal CF,RCD Mallorca,4:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300157/villarreal-cf_rcd-mallorca/lineup/
+21. Jornada,,UD Las Palmas,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300187/ud-las-palmas_ca-osasuna/lineup/
+21. Jornada,,RCD Mallorca,Real Betis,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300178/rcd-mallorca_real-betis/lineup/
+21. Jornada,,Atlético de Madrid,Villarreal CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300166/atletico-de-madrid_villarreal-cf/lineup/
+21. Jornada,,Sevilla FC,Espanyol Barcelona,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304384/sevilla-fc_espanyol-barcelona/lineup/
+21. Jornada,,Real Valladolid,Real Madrid,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300184/real-valladolid_real-madrid/lineup/
+21. Jornada,,Rayo Vallecano,Girona FC,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300175/rayo-vallecano_girona-fc/lineup/
+21. Jornada,,Real Sociedad,Getafe CF,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300181/real-sociedad_getafe-cf/lineup/
+21. Jornada,,Athletic Club,CD Leganés,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300163/athletic-club_cd-leganes/lineup/
+21. Jornada,,FC Barcelona,Valencia CF,7:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300172/fc-barcelona_valencia-cf/lineup/
+21. Jornada,,CD Alavés,RC Celta,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300169/cd-alaves_rc-celta/lineup/
+22. Jornada,,CD Leganés,Rayo Vallecano,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300199/cd-leganes_rayo-vallecano/lineup/
+22. Jornada,,Getafe CF,Sevilla FC,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300205/getafe-cf_sevilla-fc/lineup/
+22. Jornada,,Villarreal CF,Real Valladolid,5:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300214/villarreal-cf_real-valladolid/lineup/
+22. Jornada,,Atlético de Madrid,RCD Mallorca,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300190/atletico-de-madrid_rcd-mallorca/lineup/
+22. Jornada,,Espanyol Barcelona,Real Madrid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304387/espanyol-barcelona_real-madrid/lineup/
+22. Jornada,,FC Barcelona,CD Alavés,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300202/fc-barcelona_cd-alaves/lineup/
+22. Jornada,,Valencia CF,RC Celta,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300211/valencia-cf_rc-celta/lineup/
+22. Jornada,,CA Osasuna,Real Sociedad,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300196/ca-osasuna_real-sociedad/lineup/
+22. Jornada,,Real Betis,Athletic Club,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300193/real-betis_athletic-club/lineup/
+22. Jornada,,Girona FC,UD Las Palmas,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300208/girona-fc_ud-las-palmas/lineup/
+23. Jornada,,Rayo Vallecano,Real Valladolid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300232/rayo-vallecano_real-valladolid/lineup/
+23. Jornada,,RC Celta,Real Betis,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300220/rc-celta_real-betis/lineup/
+23. Jornada,,Athletic Club,Girona FC,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300217/athletic-club_girona-fc/lineup/
+23. Jornada,,UD Las Palmas,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300241/ud-las-palmas_villarreal-cf/lineup/
+23. Jornada,,Real Madrid,Atlético de Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300238/real-madrid_atletico-de-madrid/lineup/
+23. Jornada,,CD Alavés,Getafe CF,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300223/cd-alaves_getafe-cf/lineup/
+23. Jornada,,Valencia CF,CD Leganés,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300229/valencia-cf_cd-leganes/lineup/
+23. Jornada,,Real Sociedad,Espanyol Barcelona,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304390/real-sociedad_espanyol-barcelona/lineup/
+23. Jornada,,Sevilla FC,FC Barcelona,1:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10300226/sevilla-fc_fc-barcelona/lineup/
+23. Jornada,,RCD Mallorca,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300235/rcd-mallorca_ca-osasuna/lineup/
+24. Jornada,,Girona FC,Getafe CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300259/girona-fc_getafe-cf/lineup/
+24. Jornada,,CD Leganés,CD Alavés,3:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300253/cd-leganes_cd-alaves/lineup/
+24. Jornada,,CA Osasuna,Real Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300250/ca-osasuna_real-madrid/lineup/
+24. Jornada,,Atlético de Madrid,RC Celta,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300244/atletico-de-madrid_rc-celta/lineup/
+24. Jornada,,Villarreal CF,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300262/villarreal-cf_valencia-cf/lineup/
+24. Jornada,,Espanyol Barcelona,Athletic Club,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304393/espanyol-barcelona_athletic-club/lineup/
+24. Jornada,,Real Valladolid,Sevilla FC,0:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10300268/real-valladolid_sevilla-fc/lineup/
+24. Jornada,,RCD Mallorca,UD Las Palmas,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300265/rcd-mallorca_ud-las-palmas/lineup/
+24. Jornada,,Real Betis,Real Sociedad,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300247/real-betis_real-sociedad/lineup/
+24. Jornada,,FC Barcelona,Rayo Vallecano,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300256/fc-barcelona_rayo-vallecano/lineup/
+25. Jornada,,RC Celta,CA Osasuna,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300274/rc-celta_ca-osasuna/lineup/
+25. Jornada,,CD Alavés,Espanyol Barcelona,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304396/cd-alaves_espanyol-barcelona/lineup/
+25. Jornada,,Rayo Vallecano,Villarreal CF,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300286/rayo-vallecano_villarreal-cf/lineup/
+25. Jornada,,Valencia CF,Atlético de Madrid,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300283/valencia-cf_atletico-de-madrid/lineup/
+25. Jornada,,UD Las Palmas,FC Barcelona,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300295/ud-las-palmas_fc-barcelona/lineup/
+25. Jornada,,Athletic Club,Real Valladolid,7:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300271/athletic-club_real-valladolid/lineup/
+25. Jornada,,Real Madrid,Girona FC,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300289/real-madrid_girona-fc/lineup/
+25. Jornada,,Getafe CF,Real Betis,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300277/getafe-cf_real-betis/lineup/
+25. Jornada,,Real Sociedad,CD Leganés,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300292/real-sociedad_cd-leganes/lineup/
+25. Jornada,,Sevilla FC,RCD Mallorca,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300280/sevilla-fc_rcd-mallorca/lineup/
+26. Jornada,,Real Valladolid,UD Las Palmas,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300322/real-valladolid_ud-las-palmas/lineup/
+26. Jornada,,Girona FC,RC Celta,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300313/girona-fc_rc-celta/lineup/
+26. Jornada,,Rayo Vallecano,Sevilla FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300316/rayo-vallecano_sevilla-fc/lineup/
+26. Jornada,,Real Betis,Real Madrid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300301/real-betis_real-madrid/lineup/
+26. Jornada,,Atlético de Madrid,Athletic Club,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300298/atletico-de-madrid_athletic-club/lineup/
+26. Jornada,,CD Leganés,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300307/cd-leganes_getafe-cf/lineup/
+26. Jornada,,FC Barcelona,Real Sociedad,4:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300310/fc-barcelona_real-sociedad/lineup/
+26. Jornada,,RCD Mallorca,CD Alavés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300319/rcd-mallorca_cd-alaves/lineup/
+26. Jornada,,CA Osasuna,Valencia CF,3:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300304/ca-osasuna_valencia-cf/lineup/
+26. Jornada,,Villarreal CF,Espanyol Barcelona,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304399/villarreal-cf_espanyol-barcelona/lineup/
+27. Jornada,,RC Celta,CD Leganés,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300331/rc-celta_cd-leganes/lineup/
+27. Jornada,,CD Alavés,Villarreal CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300334/cd-alaves_villarreal-cf/lineup/
+27. Jornada,,Valencia CF,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300343/valencia-cf_real-valladolid/lineup/
+27. Jornada,,Getafe CF,Atlético de Madrid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300340/getafe-cf_atletico-de-madrid/lineup/
+27. Jornada,,Real Madrid,Rayo Vallecano,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300346/real-madrid_rayo-vallecano/lineup/
+27. Jornada,,Athletic Club,RCD Mallorca,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300325/athletic-club_rcd-mallorca/lineup/
+27. Jornada,,Real Betis,UD Las Palmas,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300328/real-betis_ud-las-palmas/lineup/
+27. Jornada,,Real Sociedad,Sevilla FC,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300349/real-sociedad_sevilla-fc/lineup/
+27. Jornada,,Espanyol Barcelona,Girona FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304402/espanyol-barcelona_girona-fc/lineup/
+27. Jornada,,FC Barcelona,CA Osasuna,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300337/fc-barcelona_ca-osasuna/lineup/
+28. Jornada,,UD Las Palmas,CD Alavés,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300376/ud-las-palmas_cd-alaves/lineup/
+28. Jornada,,Real Valladolid,RC Celta,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300373/real-valladolid_rc-celta/lineup/
+28. Jornada,,RCD Mallorca,Espanyol Barcelona,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304405/rcd-mallorca_espanyol-barcelona/lineup/
+28. Jornada,,Villarreal CF,Real Madrid,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300367/villarreal-cf_real-madrid/lineup/
+28. Jornada,,Girona FC,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300361/girona-fc_valencia-cf/lineup/
+28. Jornada,,CD Leganés,Real Betis,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300358/cd-leganes_real-betis/lineup/
+28. Jornada,,Sevilla FC,Athletic Club,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300364/sevilla-fc_athletic-club/lineup/
+28. Jornada,,CA Osasuna,Getafe CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300355/ca-osasuna_getafe-cf/lineup/
+28. Jornada,,Rayo Vallecano,Real Sociedad,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300370/rayo-vallecano_real-sociedad/lineup/
+28. Jornada,,Atlético de Madrid,FC Barcelona,2:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10300352/atletico-de-madrid_fc-barcelona/lineup/
+29. Jornada,,Real Sociedad,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300403/real-sociedad_real-valladolid/lineup/
+29. Jornada,,Espanyol Barcelona,Atlético de Madrid,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304408/espanyol-barcelona_atletico-de-madrid/lineup/
+29. Jornada,,CD Alavés,Rayo Vallecano,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300388/cd-alaves_rayo-vallecano/lineup/
+29. Jornada,,Real Madrid,CD Leganés,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300400/real-madrid_cd-leganes/lineup/
+29. Jornada,,Getafe CF,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300394/getafe-cf_villarreal-cf/lineup/
+29. Jornada,,FC Barcelona,Girona FC,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300391/fc-barcelona_girona-fc/lineup/
+29. Jornada,,Athletic Club,CA Osasuna,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300379/athletic-club_ca-osasuna/lineup/
+29. Jornada,,Valencia CF,RCD Mallorca,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300397/valencia-cf_rcd-mallorca/lineup/
+29. Jornada,,Real Betis,Sevilla FC,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300382/real-betis_sevilla-fc/lineup/
+29. Jornada,,RC Celta,UD Las Palmas,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300385/rc-celta_ud-las-palmas/lineup/
+30. Jornada,,Rayo Vallecano,Espanyol Barcelona,0:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10304411/rayo-vallecano_espanyol-barcelona/lineup/
+30. Jornada,,Girona FC,CD Alavés,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300412/girona-fc_cd-alaves/lineup/
+30. Jornada,,Real Madrid,Valencia CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300424/real-madrid_valencia-cf/lineup/
+30. Jornada,,RCD Mallorca,RC Celta,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300421/rcd-mallorca_rc-celta/lineup/
+30. Jornada,,FC Barcelona,Real Betis,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300409/fc-barcelona_real-betis/lineup/
+30. Jornada,,UD Las Palmas,Real Sociedad,1:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300430/ud-las-palmas_real-sociedad/lineup/
+30. Jornada,,Sevilla FC,Atlético de Madrid,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300415/sevilla-fc_atletico-de-madrid/lineup/
+30. Jornada,,Real Valladolid,Getafe CF,0:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10300427/real-valladolid_getafe-cf/lineup/
+30. Jornada,,Villarreal CF,Athletic Club,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300418/villarreal-cf_athletic-club/lineup/
+30. Jornada,,CD Leganés,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300406/cd-leganes_ca-osasuna/lineup/
+31. Jornada,,Valencia CF,Sevilla FC,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300454/valencia-cf_sevilla-fc/lineup/
+31. Jornada,,Real Sociedad,RCD Mallorca,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300457/real-sociedad_rcd-mallorca/lineup/
+31. Jornada,,Getafe CF,UD Las Palmas,1:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300451/getafe-cf_ud-las-palmas/lineup/
+31. Jornada,,RC Celta,Espanyol Barcelona,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304414/rc-celta_espanyol-barcelona/lineup/
+31. Jornada,,CD Leganés,FC Barcelona,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300445/cd-leganes_fc-barcelona/lineup/
+31. Jornada,,CA Osasuna,Girona FC,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300442/ca-osasuna_girona-fc/lineup/
+31. Jornada,,CD Alavés,Real Madrid,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300448/cd-alaves_real-madrid/lineup/
+31. Jornada,,Real Betis,Villarreal CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300439/real-betis_villarreal-cf/lineup/
+31. Jornada,,Athletic Club,Rayo Vallecano,3:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300433/athletic-club_rayo-vallecano/lineup/
+31. Jornada,,Atlético de Madrid,Real Valladolid,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300436/atletico-de-madrid_real-valladolid/lineup/
+32. Jornada,,Espanyol Barcelona,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304417/espanyol-barcelona_getafe-cf/lineup/
+32. Jornada,,Rayo Vallecano,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300472/rayo-vallecano_valencia-cf/lineup/
+32. Jornada,,FC Barcelona,RC Celta,4:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300460/fc-barcelona_rc-celta/lineup/
+32. Jornada,,RCD Mallorca,CD Leganés,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300475/rcd-mallorca_cd-leganes/lineup/
+32. Jornada,,UD Las Palmas,Atlético de Madrid,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300484/ud-las-palmas_atletico-de-madrid/lineup/
+32. Jornada,,Real Valladolid,CA Osasuna,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300481/real-valladolid_ca-osasuna/lineup/
+32. Jornada,,Villarreal CF,Real Sociedad,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300469/villarreal-cf_real-sociedad/lineup/
+32. Jornada,,Sevilla FC,CD Alavés,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300466/sevilla-fc_cd-alaves/lineup/
+32. Jornada,,Real Madrid,Athletic Club,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300478/real-madrid_athletic-club/lineup/
+32. Jornada,,Girona FC,Real Betis,1:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300463/girona-fc_real-betis/lineup/
+33. Jornada,,Valencia CF,Espanyol Barcelona,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10304420/valencia-cf_espanyol-barcelona/lineup/
+33. Jornada,,FC Barcelona,RCD Mallorca,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300508/fc-barcelona_rcd-mallorca/lineup/
+33. Jornada,,Athletic Club,UD Las Palmas,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300487/athletic-club_ud-las-palmas/lineup/
+33. Jornada,,RC Celta,Villarreal CF,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300502/rc-celta_villarreal-cf/lineup/
+33. Jornada,,CD Alavés,Real Sociedad,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300505/cd-alaves_real-sociedad/lineup/
+33. Jornada,,Getafe CF,Real Madrid,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300511/getafe-cf_real-madrid/lineup/
+33. Jornada,,CA Osasuna,Sevilla FC,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300496/ca-osasuna_sevilla-fc/lineup/
+33. Jornada,,CD Leganés,Girona FC,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300499/cd-leganes_girona-fc/lineup/
+33. Jornada,,Atlético de Madrid,Rayo Vallecano,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300490/atletico-de-madrid_rayo-vallecano/lineup/
+33. Jornada,,Real Betis,Real Valladolid,5:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300493/real-betis_real-valladolid/lineup/
+34. Jornada,,Rayo Vallecano,Getafe CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300526/rayo-vallecano_getafe-cf/lineup/
+34. Jornada,,CD Alavés,Atlético de Madrid,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300514/cd-alaves_atletico-de-madrid/lineup/
+34. Jornada,,Villarreal CF,CA Osasuna,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300523/villarreal-cf_ca-osasuna/lineup/
+34. Jornada,,UD Las Palmas,Valencia CF,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300538/ud-las-palmas_valencia-cf/lineup/
+34. Jornada,,Real Valladolid,FC Barcelona,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300535/real-valladolid_fc-barcelona/lineup/
+34. Jornada,,Real Madrid,RC Celta,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300529/real-madrid_rc-celta/lineup/
+34. Jornada,,Sevilla FC,CD Leganés,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300520/sevilla-fc_cd-leganes/lineup/
+34. Jornada,,Espanyol Barcelona,Real Betis,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304423/espanyol-barcelona_real-betis/lineup/
+34. Jornada,,Real Sociedad,Athletic Club,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300532/real-sociedad_athletic-club/lineup/
+34. Jornada,,Girona FC,RCD Mallorca,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300517/girona-fc_rcd-mallorca/lineup/
+35. Jornada,,UD Las Palmas,Rayo Vallecano,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300565/ud-las-palmas_rayo-vallecano/lineup/
+35. Jornada,,Valencia CF,Getafe CF,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300559/valencia-cf_getafe-cf/lineup/
+35. Jornada,,RC Celta,Sevilla FC,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300550/rc-celta_sevilla-fc/lineup/
+35. Jornada,,Girona FC,Villarreal CF,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300556/girona-fc_villarreal-cf/lineup/
+35. Jornada,,RCD Mallorca,Real Valladolid,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300562/rcd-mallorca_real-valladolid/lineup/
+35. Jornada,,Atlético de Madrid,Real Sociedad,4:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300544/atletico-de-madrid_real-sociedad/lineup/
+35. Jornada,,CD Leganés,Espanyol Barcelona,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304426/cd-leganes_espanyol-barcelona/lineup/
+35. Jornada,,FC Barcelona,Real Madrid,4:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300553/fc-barcelona_real-madrid/lineup/
+35. Jornada,,Athletic Club,CD Alavés,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300541/athletic-club_cd-alaves/lineup/
+35. Jornada,,Real Betis,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300547/real-betis_ca-osasuna/lineup/
+36. Jornada,,Real Valladolid,Girona FC,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300592/real-valladolid_girona-fc/lineup/
+36. Jornada,,Real Sociedad,RC Celta,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300589/real-sociedad_rc-celta/lineup/
+36. Jornada,,Sevilla FC,UD Las Palmas,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300577/sevilla-fc_ud-las-palmas/lineup/
+36. Jornada,,CD Alavés,Valencia CF,1:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300571/cd-alaves_valencia-cf/lineup/
+36. Jornada,,Villarreal CF,CD Leganés,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300580/villarreal-cf_cd-leganes/lineup/
+36. Jornada,,Real Madrid,RCD Mallorca,2:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300586/real-madrid_rcd-mallorca/lineup/
+36. Jornada,,CA Osasuna,Atlético de Madrid,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300568/ca-osasuna_atletico-de-madrid/lineup/
+36. Jornada,,Rayo Vallecano,Real Betis,2:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300583/rayo-vallecano_real-betis/lineup/
+36. Jornada,,Getafe CF,Athletic Club,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300574/getafe-cf_athletic-club/lineup/
+36. Jornada,,Espanyol Barcelona,FC Barcelona,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10304429/espanyol-barcelona_fc-barcelona/lineup/
+37. Jornada,,Atlético de Madrid,Real Betis,4:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300595/atletico-de-madrid_real-betis/lineup/
+37. Jornada,,RC Celta,Rayo Vallecano,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300598/rc-celta_rayo-vallecano/lineup/
+37. Jornada,,FC Barcelona,Villarreal CF,2:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300601/fc-barcelona_villarreal-cf/lineup/
+37. Jornada,,Sevilla FC,Real Madrid,0:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300604/sevilla-fc_real-madrid/lineup/
+37. Jornada,,Valencia CF,Athletic Club,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300607/valencia-cf_athletic-club/lineup/
+37. Jornada,,RCD Mallorca,Getafe CF,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300610/rcd-mallorca_getafe-cf/lineup/
+37. Jornada,,Real Sociedad,Girona FC,3:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300613/real-sociedad_girona-fc/lineup/
+37. Jornada,,Real Valladolid,CD Alavés,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300616/real-valladolid_cd-alaves/lineup/
+37. Jornada,,UD Las Palmas,CD Leganés,0:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300619/ud-las-palmas_cd-leganes/lineup/
+37. Jornada,,CA Osasuna,Espanyol Barcelona,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304432/ca-osasuna_espanyol-barcelona/lineup/
+38. Jornada,,Real Betis,Valencia CF,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300625/real-betis_valencia-cf/lineup/
+38. Jornada,,Real Madrid,Real Sociedad,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300646/real-madrid_real-sociedad/lineup/
+38. Jornada,,CD Leganés,Real Valladolid,3:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300628/cd-leganes_real-valladolid/lineup/
+38. Jornada,,Espanyol Barcelona,UD Las Palmas,2:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10304435/espanyol-barcelona_ud-las-palmas/lineup/
+38. Jornada,,CD Alavés,CA Osasuna,1:1,https://www.livefutbol.com/match-report/co97/primera-division/ma10300631/cd-alaves_ca-osasuna/lineup/
+38. Jornada,,Getafe CF,RC Celta,1:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300634/getafe-cf_rc-celta/lineup/
+38. Jornada,,Rayo Vallecano,RCD Mallorca,0:0,https://www.livefutbol.com/match-report/co97/primera-division/ma10300643/rayo-vallecano_rcd-mallorca/lineup/
+38. Jornada,,Girona FC,Atlético de Madrid,0:4,https://www.livefutbol.com/match-report/co97/primera-division/ma10300637/girona-fc_atletico-de-madrid/lineup/
+38. Jornada,,Villarreal CF,Sevilla FC,4:2,https://www.livefutbol.com/match-report/co97/primera-division/ma10300640/villarreal-cf_sevilla-fc/lineup/
+38. Jornada,,Athletic Club,FC Barcelona,0:3,https://www.livefutbol.com/match-report/co97/primera-division/ma10300622/athletic-club_fc-barcelona/lineup/
