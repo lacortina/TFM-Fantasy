@@ -289,7 +289,7 @@ def main():
     dfequiposracha = equipos_jornadasracha.iloc[
         :, columnas_seleccionadas
     ].copy()
-
+    #s
     # ============================
     # 11. GUARDAR CSV
     # ============================
