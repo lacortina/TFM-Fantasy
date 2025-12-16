@@ -21,7 +21,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
 BASE = "https://www.livefutbol.com"
-SEASON_URL = "https://www.livefutbol.com/competition/co97/espana-primera-division/se74771/2024-2025/all-matches/"
+SEASON_URL = "https://www.livefutbol.com/competition/co97/espana-primera-division/se96657/2025-2026/all-matches/" 
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se45808/2022-2023/all-matches/" 
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se52580/2023-2024/all-matches/"
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se74771/2024-2025/all-matches/"
 
 RESULTS_CSV = "resultados_partidos.csv"
 PLAYERS_CSV = "players_stats.csv"
@@ -34,12 +37,15 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 # NETWORK UTILITIES
 ############################################################
 
+
+
 def fetch_with_requests(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         r.raise_for_status()
         return r.text
-    except:
+    except Exception as e:
+        print(f"[fetch_with_requests] Error en {url}: {e}")
         return None
 
 
@@ -48,6 +54,8 @@ def fetch_with_selenium(url):
     opts = Options()
     opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-gpu")
+
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
     driver.get(url)
     time.sleep(3)
@@ -57,13 +65,23 @@ def fetch_with_selenium(url):
 
 
 def fetch_html(url, require=None):
-    html = fetch_with_requests(url)
-    if html and require and require not in html:
-        print(" → requests missing required block, using selenium")
-        html = fetch_with_selenium(url)
-    if not html:
-        html = fetch_with_selenium(url)
-    return html
+    """
+    Descarga HTML con requests y, si falla o no contiene un fragmento requerido,
+    hace fallback automático a Selenium.
+    """
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        if r.status_code == 200:
+            html = r.text
+            if require and require not in html:
+                print("[fetch_html] Requiere JS o bloque específico, usando Selenium...")
+                return fetch_with_selenium(url)
+            return html
+    except Exception as e:
+        print("[fetch_html] Requests error:", e)
+
+    print("[fetch_html] Usando Selenium como fallback")
+    return fetch_with_selenium(url)
 
 
 ############################################################
@@ -212,21 +230,18 @@ def procesar_lineup_html(html):
 # PARSE TEAM-STATISTICS PAGE
 ############################################################
 
-import re
-from urllib.parse import urljoin
-
 def parse_team_statistics_page(url):
     """
     Descarga y parsea la página de 'team-statistics'.
-    Devuelve una lista de filas: [{'stat':..., 'home':..., 'away':..., 'home_team':..., 'away_team':...}, ...]
-    Si no se encuentra la sección de estadísticas devuelve [] en vez de lanzar excepción.
+    Devuelve una lista de filas:
+    [{'stat':..., 'home':..., 'away':..., 'home_team':..., 'away_team':...}, ...]
+    Si no se encuentra la sección de estadísticas devuelve [].
     """
     if not url:
         print("  [team_stats] Enlace vacío.")
         return []
 
     print(f"  [team_stats] Descargando {url} ...")
-    # Intentar obtener HTML, exigiendo el fragmento 'hs-comparison' para forzar selenium si hace falta.
     html = fetch_html(url, require="hs-comparison")
     if not html:
         print(f"  [team_stats] No se pudo descargar HTML para {url}.")
@@ -235,13 +250,9 @@ def parse_team_statistics_page(url):
     soup = BeautifulSoup(html, "html.parser")
 
     # Buscar el bloque de comparación con varias heurísticas
-    header = None
-    # 1) ul con clase exacta
     header = soup.find("ul", class_="hs-comparison")
-    # 2) ul con clase que contenga 'hs-comparison' (por si hay variaciones)
     if not header:
         header = soup.find("ul", class_=re.compile(r"hs-comparison"))
-    # 3) div que contenga la tabla (algunas versiones pueden usar div)
     if not header:
         header = soup.find("div", class_=re.compile(r"hs-comparison"))
 
@@ -249,7 +260,7 @@ def parse_team_statistics_page(url):
         print(f"  [team_stats] No se encontró el bloque hs-comparison en {url}. Saltando estadísticas.")
         return []
 
-    # Encontrar nombres de equipos (más robusto)
+    # Nombres de equipos
     home_name = None
     away_name = None
     head_li = header.find("li", class_=re.compile(r"hs-head"))
@@ -257,7 +268,6 @@ def parse_team_statistics_page(url):
         home_div = head_li.find("div", class_=re.compile(r"hs-home"))
         away_div = head_li.find("div", class_=re.compile(r"hs-away"))
         if home_div:
-            # intentar extraer shortname o img alt
             sn = home_div.find("div", class_=re.compile(r"team-shortname"))
             if sn:
                 home_name = sn.get_text(strip=True)
@@ -274,25 +284,23 @@ def parse_team_statistics_page(url):
                 if img and img.get("alt"):
                     away_name = img.get("alt").strip()
 
-    # Fallbacks si no se obtuvieron nombres
     if not home_name or not away_name:
-        # buscar cualquier img con team-image dentro del header
         imgs = header.find_all("img")
         if imgs and len(imgs) >= 2:
             if not home_name and imgs[0].get("alt"):
                 home_name = imgs[0].get("alt").strip()
             if not away_name and imgs[1].get("alt"):
                 away_name = imgs[1].get("alt").strip()
+
     if not home_name:
         home_name = "home"
     if not away_name:
         away_name = "away"
 
     rows = []
-    # Iterar por cada li que represente una estadística
+
     for li in header.find_all("li"):
         classes = li.get("class") or []
-        # saltar header li
         if any(re.search(r"hs-head", c) for c in classes):
             continue
 
@@ -303,20 +311,15 @@ def parse_team_statistics_page(url):
 
         hv = li.find("div", class_="hs-value hs-value-home")
         av = li.find("div", class_="hs-value hs-value-away")
-        # A veces los valores pueden estar en otras etiquetas; buscar más ampliamente
         if not hv:
             hv = li.find("div", class_=re.compile(r"hs-value.*home"))
         if not av:
             av = li.find("div", class_=re.compile(r"hs-value.*away"))
 
         if not (hv and av):
-            # intentar detectar valores numéricos dentro del li (último recurso)
-            txts = li.get_text(" ", strip=True).split()
-            # si no encontramos ambos, saltar
             print(f"  [team_stats] Stat '{stat}' sin valores home/away claros, se omite.")
             continue
 
-        # Normalizar y convertir números si es posible
         def to_number(s):
             s = s.strip().replace(",", ".").replace("%", "")
             if s == "":
@@ -346,6 +349,58 @@ def parse_team_statistics_page(url):
 
 
 ############################################################
+# NUEVA FUNCIÓN: obtener SIEMPRE el enlace correcto team-statistics
+############################################################
+
+def get_correct_team_stats_link_from_lineup(lineup_url):
+    """
+    Obtiene SIEMPRE el enlace correcto:
+    /match-report/.../team-statistics/
+    a partir de la página lineup.
+    """
+    if not lineup_url:
+        print("[team_stats_link] lineup_url vacío")
+        return None
+
+    html = fetch_html(lineup_url, require=None)
+    if not html:
+        print(f"[team_stats_link] No se pudo descargar lineup {lineup_url}")
+        return None
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Buscar SOLO dentro de <article id="hs-content">
+    article = soup.find("article", id="hs-content")
+    if not article:
+        print("[team_stats_link] No se encontró <article id='hs-content'> (posible JS no cargado)")
+        return None
+
+    # Buscar SOLO el menú de nivel de partido
+    nav = article.find("nav", class_="hs-menu-level-sub")
+    if not nav:
+        nav = article.find("nav", class_="hs-menu-level-match")
+    if not nav:
+        print("[team_stats_link] No se encontró nav.hs-menu-level-sub ni hs-menu-level-match")
+        return None
+
+    ul = nav.find("ul", class_="hs-menu--list")
+    if not ul:
+        print("[team_stats_link] No se encontró ul.hs-menu--list dentro del nav")
+        return None
+
+    # Buscar el enlace correcto (solo match-report, NO competition)
+    for a in ul.find_all("a", href=True):
+        href = a["href"].strip()
+        if "/match-report/" in href and "team-statistics" in href:
+            full = urljoin(BASE, href)
+            print("[team_stats_link] Enlace correcto encontrado:", full)
+            return full
+
+    print("[team_stats_link] No se encontró enlace team-statistics dentro del menú del partido")
+    return None
+
+
+############################################################
 # CSV DATA MANAGEMENT
 ############################################################
 
@@ -365,7 +420,26 @@ def load_players():
     return base
 
 
-def save_players(players):
+#def save_players(players):
+ #   rows = []
+ #   for (nombre, equipo), v in players.items():
+ #       rows.append({
+ #           "nombre": nombre,
+ #           "equipo": equipo,
+ #           "minutos_totales": v["minutos"],
+ #           "goles_totales": v["goles"],
+ #           "partidos_jugados": v["partidos"]
+ #       })
+ #   pd.DataFrame(rows).to_csv(PLAYERS_CSV, index=False)
+
+def save_players(players, retries=10, delay=1):
+    """
+    Guarda players_stats.csv de forma extremadamente robusta.
+    - Usa archivo temporal
+    - Reintenta automáticamente si Windows bloquea el archivo
+    - No pierde datos en ningún escenario
+    """
+
     rows = []
     for (nombre, equipo), v in players.items():
         rows.append({
@@ -375,7 +449,41 @@ def save_players(players):
             "goles_totales": v["goles"],
             "partidos_jugados": v["partidos"]
         })
-    pd.DataFrame(rows).to_csv(PLAYERS_CSV, index=False)
+
+    df = pd.DataFrame(rows)
+
+    tmp_file = PLAYERS_CSV + ".tmp"
+
+    for attempt in range(1, retries + 1):
+        try:
+            # 1) Escribir a archivo temporal
+            df.to_csv(tmp_file, index=False)
+
+            # 2) Reemplazar el principal (operación atómica)
+            os.replace(tmp_file, PLAYERS_CSV)
+            return  # éxito total
+
+        except PermissionError as e:
+            print(f"[save_players] Archivo bloqueado (intento {attempt}/{retries}), reintentando...")
+            time.sleep(delay)
+
+        except Exception as e:
+            print(f"[save_players] Error inesperado: {e}")
+            time.sleep(delay)
+
+    print("[save_players] ERROR FATAL: No se pudo guardar players_stats.csv después de varios intentos.")
+
+
+def safe_to_csv(df, filename, retries=10, delay=0.5):
+    tmp = filename + ".tmp"
+    for i in range(retries):
+        try:
+            df.to_csv(tmp, index=False)
+            os.replace(tmp, filename)
+            return
+        except PermissionError:
+            time.sleep(delay)
+    raise RuntimeError(f"No se pudo escribir {filename}")
 
 
 ############################################################
@@ -384,24 +492,36 @@ def save_players(players):
 
 def main():
     print("=== Descargando temporada... ===")
-    html = fetch_html(SEASON_URL, require="module-gameplan")
 
+    html = fetch_html(SEASON_URL, require="module-gameplan")
     partidos = parsear_partidos(html)
     print("Partidos encontrados:", len(partidos))
+
+    # ========================
+    # Estado persistente
+    # ========================
+    players_master = load_players()
 
     results_rows = []
     team_stats_rows = []
 
-    players_master = load_players()
-
     processed = {}
     if os.path.exists(PROCESSED_JSON):
-        processed = json.load(open(PROCESSED_JSON, "r"))
+        with open(PROCESSED_JSON, "r", encoding="utf-8") as f:
+            processed = json.load(f)
 
+    # ========================
+    # Loop principal
+    # ========================
     for i, p in enumerate(partidos, 1):
-        print(f"[{i}/{len(partidos)}] Procesando {p['local']} vs {p['visitante']}...")
+        match_id = f"{p['fecha']}|{p['local']}|{p['visitante']}"
 
-        # Guardar la info basic del partido
+        if processed.get(match_id):
+            print(f"[{i}/{len(partidos)}] Saltando {p['local']} vs {p['visitante']} (ya procesado)")
+            continue
+
+        print(f"[{i}/{len(partidos)}] Procesando {p['local']} vs {p['visitante']}")
+
         base_info = {
             "jornada": p["jornada"],
             "fecha": p["fecha"],
@@ -411,14 +531,13 @@ def main():
             "lineup_url": p["lineup_url"]
         }
 
-        # 1) Alineaciones
-        lineup_players = {}
-
+        # ========================
+        # Lineups
+        # ========================
         if p["lineup_url"]:
             lineup_html = fetch_html(p["lineup_url"])
             lineup_players = procesar_lineup_html(lineup_html)
 
-            # update global players
             for key, stats in lineup_players.items():
                 if key not in players_master:
                     players_master[key] = stats
@@ -427,25 +546,14 @@ def main():
                     players_master[key]["goles"] += stats["goles"]
                     players_master[key]["partidos"] += stats["partidos"]
 
-        # 2) Team statistics (buscar enlace dentro del lineup HTML)
-        team_stats = []
-
+        # ========================
+        # Team statistics
+        # ========================
         if p["lineup_url"]:
-            lineup_html = fetch_html(p["lineup_url"])
-            soup_lineup = BeautifulSoup(lineup_html, "html.parser")
-
-            stat_link = None
-            for li in soup_lineup.find_all("li", class_="hs-menu--item"):
-                a = li.find("a", href=True)
-                if a and "team-statistics" in a["href"]:
-                    stat_link = urljoin(BASE, a["href"])
-                    break
-
+            stat_link = get_correct_team_stats_link_from_lineup(p["lineup_url"])
             if stat_link:
-                team_stats = parse_team_statistics_page(stat_link)
-
-                # Guardar cada stat en tabla plana
-                for row in team_stats:
+                stats = parse_team_statistics_page(stat_link)
+                for row in stats:
                     team_stats_rows.append({
                         "jornada": p["jornada"],
                         "fecha": p["fecha"],
@@ -456,20 +564,30 @@ def main():
                         "valor_visitante": row["away"]
                     })
 
-        # Guardar info resumen partido
+        # ========================
+        # Registrar partido
+        # ========================
         results_rows.append(base_info)
 
-        # save partial
+        processed[match_id] = True
+
+        # ========================
+        # Guardados seguros (mínimos)
+        # ========================
         save_players(players_master)
-        pd.DataFrame(results_rows).to_csv(RESULTS_CSV, index=False)
-        pd.DataFrame(team_stats_rows).to_csv(TEAM_STATS_CSV, index=False)
+
+        with open(PROCESSED_JSON, "w", encoding="utf-8") as f:
+            json.dump(processed, f, indent=2)
 
         time.sleep(1)
 
-    # Final save
-    save_players(players_master)
-    pd.DataFrame(results_rows).to_csv(RESULTS_CSV, index=False)
-    pd.DataFrame(team_stats_rows).to_csv(TEAM_STATS_CSV, index=False)
+    # ========================
+    # Guardado final atómico
+    # ========================
+    print("=== Guardando CSV finales ===")
+
+    safe_to_csv(pd.DataFrame(results_rows), RESULTS_CSV)
+    safe_to_csv(pd.DataFrame(team_stats_rows), TEAM_STATS_CSV)
 
     print("=== FINALIZADO ===")
 

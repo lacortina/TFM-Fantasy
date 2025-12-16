@@ -44,7 +44,7 @@ def agregar_rachas(df, stats_cols, N=3):
 # =========================================
 def main():
 
-    ruta = "./24-25/"
+    ruta = "./"
     os.makedirs(ruta, exist_ok=True)
 
     # ============================

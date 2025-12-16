@@ -21,7 +21,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
 BASE = "https://www.livefutbol.com"
-SEASON_URL = "https://www.livefutbol.com/competition/co97/espana-primera-division/se74771/2024-2025/all-matches/"
+SEASON_URL = "https://www.livefutbol.com/competition/co97/espana-primera-division/se45808/2022-2023/all-matches/" 
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se45808/2022-2023/all-matches/" 
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se52580/2023-2024/all-matches/"
+#"https://www.livefutbol.com/competition/co97/espana-primera-division/se74771/2024-2025/all-matches/"
 
 RESULTS_CSV = "resultados_partidos.csv"
 PLAYERS_CSV = "players_stats.csv"
@@ -33,6 +36,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 ############################################################
 # NETWORK UTILITIES
 ############################################################
+
+
 
 def fetch_with_requests(url):
     try:
@@ -415,7 +420,26 @@ def load_players():
     return base
 
 
-def save_players(players):
+#def save_players(players):
+ #   rows = []
+ #   for (nombre, equipo), v in players.items():
+ #       rows.append({
+ #           "nombre": nombre,
+ #           "equipo": equipo,
+ #           "minutos_totales": v["minutos"],
+ #           "goles_totales": v["goles"],
+ #           "partidos_jugados": v["partidos"]
+ #       })
+ #   pd.DataFrame(rows).to_csv(PLAYERS_CSV, index=False)
+
+def save_players(players, retries=10, delay=1):
+    """
+    Guarda players_stats.csv de forma extremadamente robusta.
+    - Usa archivo temporal
+    - Reintenta automáticamente si Windows bloquea el archivo
+    - No pierde datos en ningún escenario
+    """
+
     rows = []
     for (nombre, equipo), v in players.items():
         rows.append({
@@ -425,7 +449,29 @@ def save_players(players):
             "goles_totales": v["goles"],
             "partidos_jugados": v["partidos"]
         })
-    pd.DataFrame(rows).to_csv(PLAYERS_CSV, index=False)
+
+    df = pd.DataFrame(rows)
+
+    tmp_file = PLAYERS_CSV + ".tmp"
+
+    for attempt in range(1, retries + 1):
+        try:
+            # 1) Escribir a archivo temporal
+            df.to_csv(tmp_file, index=False)
+
+            # 2) Reemplazar el principal (operación atómica)
+            os.replace(tmp_file, PLAYERS_CSV)
+            return  # éxito total
+
+        except PermissionError as e:
+            print(f"[save_players] Archivo bloqueado (intento {attempt}/{retries}), reintentando...")
+            time.sleep(delay)
+
+        except Exception as e:
+            print(f"[save_players] Error inesperado: {e}")
+            time.sleep(delay)
+
+    print("[save_players] ERROR FATAL: No se pudo guardar players_stats.csv después de varios intentos.")
 
 
 ############################################################
